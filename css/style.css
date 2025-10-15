@@ -1,0 +1,288 @@
+/* General Custom Styles */
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f5f5;
+  line-height: 1.6;
+}
+
+/* Improved responsive typography */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+/* Better focus states for accessibility */
+a:focus, button:focus, input:focus, textarea:focus {
+  outline: 2px solid #38bdf8;
+  outline-offset: 2px;
+}
+
+/* Smooth transitions for all interactive elements */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Navbar */
+header a {
+  transition: color 0.3s ease;
+}
+
+/* Product Cards */
+#products .bg-white {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#products .bg-white:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+button, .btn, a.btn {
+  transition: all 0.3s ease;
+}
+
+.hero-slide {
+  transition: opacity 1s ease-in-out;
+  pointer-events: none;
+}
+.hero-slide.opacity-100 {
+  pointer-events: auto;
+  opacity: 1;
+}
+.hero-slide img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hero-slide > div {
+  position: relative;
+  z-index: 10;
+}
+
+.hero-slide .bg-black\/50 {
+  backdrop-filter: blur(3px); /* optional: subtle blur for text readability */
+}
+
+/* Slider Controls */
+#slider-prev, #slider-next {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+#slider-prev:hover, #slider-next:hover {
+  transform: scale(1.1);
+}
+
+/* Slider Dots */
+.slider-dot {
+  transition: all 0.3s ease;
+}
+.slider-dot:hover {
+  transform: scale(1.2);
+}
+
+/* Fade in animations */
+@keyframes fade-in-down { 0% { opacity:0; transform: translateY(-20px); } 100% { opacity:1; transform: translateY(0); } }
+@keyframes fade-in-up { 0% { opacity:0; transform: translateY(20px); } 100% { opacity:1; transform: translateY(0); } }
+@keyframes fade-in-right { 0% { opacity:0; transform: translateX(20px); } 100% { opacity:1; transform: translateX(0); } }
+
+.animate-fade-in-down { animation: fade-in-down 1s ease forwards; }
+.animate-fade-in-up { animation: fade-in-up 1s ease forwards; }
+.animate-fade-in-right { animation: fade-in-right 1s ease forwards; }
+.animate-fade-in-up.delay-300 { animation-delay: 0.3s; }
+
+/* Floating product animations */
+@keyframes float-up-down { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-15px); } }
+@keyframes float-left-right { 0%, 100% { transform: translateX(0px); } 50% { transform: translateX(15px); } }
+
+.animate-float-up-down { animation: float-up-down 4s ease-in-out infinite; }
+.animate-float-left-right { animation: float-left-right 5s ease-in-out infinite; }
+
+/* Fullscreen Slider Enhancements */
+#home {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Fullscreen */
+  overflow: hidden;
+}
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+}
+.hero-slide.opacity-100 {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Overlay for better readability */
+.hero-slide .bg-black\/50 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Enhanced Responsive Text */
+.hero-slide h1 {
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+@media(min-width: 640px) {
+  .hero-slide h1 {
+    font-size: 2rem;
+  }
+}
+@media(min-width: 768px) {
+  .hero-slide h1 {
+    font-size: 3rem;
+  }
+}
+@media(min-width: 1024px) {
+  .hero-slide h1 {
+    font-size: 4rem;
+  }
+}
+@media(min-width: 1280px) {
+  .hero-slide h1 {
+    font-size: 5rem;
+  }
+}
+
+.hero-slide p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+@media(min-width: 640px) {
+  .hero-slide p {
+    font-size: 1rem;
+  }
+}
+@media(min-width: 768px) {
+  .hero-slide p {
+    font-size: 1.125rem;
+  }
+}
+@media(min-width: 1024px) {
+  .hero-slide p {
+    font-size: 1.25rem;
+  }
+}
+
+/* Professional card hover effects */
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Mobile-first responsive utilities */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .text-responsive {
+    font-size: 0.875rem;
+  }
+}
+
+/* Professional button styles */
+.btn-primary {
+  background: #090067;
+  border: none;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(9, 0, 103, 0.3);
+}
+
+.btn-primary:hover {
+  background: #0a0075;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(9, 0, 103, 0.4);
+}
+
+/* Enhanced main color usage */
+.text-primary {
+  color: #090067 !important;
+}
+
+.bg-primary {
+  background-color: #090067 !important;
+}
+
+.border-primary {
+  border-color: #090067 !important;
+}
+
+/* Primary color hover states */
+.hover-primary:hover {
+  background-color: #090067 !important;
+  color: white !important;
+}
+
+.hover-primary-text:hover {
+  color: #090067 !important;
+}
+
+/* Enhanced mobile menu */
+@media (max-width: 1024px) {
+  #mobile-menu {
+    backdrop-filter: blur(10px);
+    background-color: rgba(9, 0, 103, 0.95);
+  }
+}
+
+/* Consistent Font Sizes */
+h1 {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 1.875rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2.25rem;
+  }
+  
+  h3 {
+    font-size: 1.875rem;
+  }
+}
