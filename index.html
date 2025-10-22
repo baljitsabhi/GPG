@@ -102,211 +102,415 @@
   </header>
   
   <!-- Hero Section (Slider) -->
-  <section id="home" class="relative w-full h-screen overflow-hidden">
-    <!-- Slides Wrapper -->
-    <div id="hero-slider" class="relative w-full h-full">
-  
-      <!-- Slide 1 -->
-      <div class="hero-slide absolute inset-0 flex items-center justify-center text-center px-4 sm:px-6 lg:px-8 transition-opacity duration-1000 opacity-100 z-20">
-        <img src="images/mobilerepair.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Phone Repair">
-        <div class="relative bg-black/60 backdrop-blur-sm p-4 sm:p-6 md:p-8 lg:p-12 rounded-xl sm:rounded-2xl z-10 max-w-4xl mx-auto">
-          <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-extrabold text-white mb-3 sm:mb-5 leading-snug">
-            Reliable Phone Repairs & Accessories
-          </h1>
-          <p class="text-base sm:text-lg md:text-xl text-gray-200 mb-6 sm:mb-8 max-w-2xl mx-auto">
-            Fast, affordable, and trusted services for all your devices.
-          </p>
-          <div class="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
-            <a href="#services" class="bg-[#090067] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-[#090067]/90 transition-all duration-300 text-base shadow-lg hover:shadow-xl">
-              Explore Services
-            </a>
-            <a href="#products" class="bg-white text-[#090067] border-2 border-[#090067] px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-[#090067] hover:text-white transition-all duration-300 text-base shadow-lg hover:shadow-xl">
-              View Accessories
+  <section id="home" class="relative w-full h-[400px] md:h-[480px] lg:h-[520px] overflow-hidden">
+    <div class="mx-auto max-w-7xl h-full relative">
+      <!-- Slides Wrapper (contained) -->
+      <div id="hero-slider" class="relative w-full h-full">
+
+        <!-- Slide 1 -->
+        <div class="hero-slide absolute inset-0 flex items-center justify-center text-center px-4 sm:px-6 lg:px-8 transition-opacity duration-1000 opacity-100 z-20">
+          <img src="images/mobilerepair.jpg" class="absolute inset-0 w-full h-full object-cover rounded-2xl md:rounded-3xl max-w-7xl mx-auto" alt="Phone Repair" style="object-position:center;">
+          <div class="relative bg-black/60 backdrop-blur-sm p-4 sm:p-6 md:p-8 lg:p-12 rounded-xl sm:rounded-2xl z-10 max-w-4xl mx-auto">
+            <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-extrabold text-white mb-3 sm:mb-5 leading-snug">
+              Reliable Phone Repairs & Accessories
+            </h1>
+            <p class="text-base sm:text-lg md:text-xl text-gray-200 mb-6 sm:mb-8 max-w-2xl mx-auto">
+              Fast, affordable, and trusted services for all your devices.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
+              <a href="#services" class="bg-[#090067] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-[#090067]/90 transition-all duration-300 text-base shadow-lg hover:shadow-xl">
+                Explore Services
+              </a>
+              <a href="#products" class="bg-white text-[#090067] border-2 border-[#090067] px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-[#090067] hover:text-white transition-all duration-300 text-base shadow-lg hover:shadow-xl">
+                View Accessories
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="hero-slide absolute inset-0 flex items-center justify-center text-center px-4 sm:px-6 lg:px-8 transition-opacity duration-1000 opacity-0 pointer-events-none">
+          <img src="images/cygnett.jpg" class="absolute inset-0 w-full h-full object-cover rounded-2xl md:rounded-3xl max-w-7xl mx-auto" alt="Cygnett Accessories" style="object-position:center;">
+          <div class="relative bg-black/60 backdrop-blur-sm p-4 sm:p-6 md:p-8 lg:p-12 rounded-xl sm:rounded-2xl z-10 max-w-4xl mx-auto">
+            <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-extrabold text-white mb-3 sm:mb-5 leading-snug">
+              Cygnett iPhone Accessories
+            </h1>
+            <p class="text-base sm:text-lg md:text-xl text-gray-200 mb-6 sm:mb-8 max-w-2xl mx-auto">
+              Explore premium Cygnett products including <span class="font-semibold text-white">iPhone cases, power banks, and charging cables</span>.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
+              <a href="#products" class="bg-[#090067] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-[#090067]/90 transition-all duration-300 text-base shadow-lg hover:shadow-xl">
+                Shop Cygnett
+              </a>
+              <a href="#contact" class="bg-white text-[#090067] border-2 border-[#090067] px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-[#090067] hover:text-white transition-all duration-300 text-base shadow-lg hover:shadow-xl">
+                Contact Us
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="hero-slide absolute inset-0 flex items-center justify-center text-center px-4 sm:px-6 lg:px-8 transition-opacity duration-1000 opacity-0 pointer-events-none">
+          <img src="images/otterbox.jpg" class="absolute inset-0 w-full h-full object-cover rounded-2xl md:rounded-3xl max-w-7xl mx-auto" alt="OtterBox Covers" style="object-position:center;">
+          <div class="relative bg-black/60 backdrop-blur-sm p-4 sm:p-6 md:p-8 lg:p-12 rounded-xl sm:rounded-2xl z-10 max-w-4xl mx-auto">
+            <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-extrabold text-white mb-3 sm:mb-5 leading-snug">
+              Stylish Phone Covers
+            </h1>
+            <p class="text-base sm:text-lg md:text-xl text-gray-200 mb-6 sm:mb-8 max-w-2xl mx-auto">
+              Protect your phone with our range of stylish and durable covers for all major brands. 
+              <span class="font-semibold text-white">Now featuring premium OtterBox covers for maximum protection.</span>
+            </p>
+            <a href="#products" class="inline-block bg-[#090067] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-[#090067]/90 transition-all duration-300 text-base shadow-lg hover:shadow-xl">
+              Shop Now
             </a>
           </div>
         </div>
-      </div>
 
-      <!-- Slide 2 -->
-      <div class="hero-slide absolute inset-0 flex items-center justify-center text-center px-4 sm:px-6 lg:px-8 transition-opacity duration-1000 opacity-0 pointer-events-none">
-        <img src="images/cygnett.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Cygnett Accessories">
-        <div class="relative bg-black/60 backdrop-blur-sm p-4 sm:p-6 md:p-8 lg:p-12 rounded-xl sm:rounded-2xl z-10 max-w-4xl mx-auto">
-          <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-extrabold text-white mb-3 sm:mb-5 leading-snug">
-            Cygnett iPhone Accessories
-          </h1>
-          <p class="text-base sm:text-lg md:text-xl text-gray-200 mb-6 sm:mb-8 max-w-2xl mx-auto">
-            Explore premium Cygnett products including <span class="font-semibold text-white">iPhone cases, power banks, and charging cables</span>.
-          </p>
-          <div class="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
-            <a href="#products" class="bg-[#090067] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-[#090067]/90 transition-all duration-300 text-base shadow-lg hover:shadow-xl">
-              Shop Cygnett
-            </a>
-            <a href="#contact" class="bg-white text-[#090067] border-2 border-[#090067] px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-[#090067] hover:text-white transition-all duration-300 text-base shadow-lg hover:shadow-xl">
-              Contact Us
-            </a>
-          </div>
-        </div>
-      </div>
+        <!-- Controls -->
+        <button id="slider-prev" class="absolute left-6 top-1/2 -translate-y-1/2 bg-white/70 hover:bg-white rounded-full p-3 shadow-lg z-30">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#090067]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+          </svg>
+        </button>
+        <button id="slider-next" class="absolute right-6 top-1/2 -translate-y-1/2 bg-white/70 hover:bg-white rounded-full p-3 shadow-lg z-30">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#090067]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </button>
 
-      <!-- Slide 3 -->
-      <div class="hero-slide absolute inset-0 flex items-center justify-center text-center px-4 sm:px-6 lg:px-8 transition-opacity duration-1000 opacity-0 pointer-events-none">
-        <img src="images/otterbox.jpg" class="absolute inset-0 w-full h-full object-cover" alt="OtterBox Covers">
-        <div class="relative bg-black/60 backdrop-blur-sm p-4 sm:p-6 md:p-8 lg:p-12 rounded-xl sm:rounded-2xl z-10 max-w-4xl mx-auto">
-          <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-extrabold text-white mb-3 sm:mb-5 leading-snug">
-            Stylish Phone Covers
-          </h1>
-          <p class="text-base sm:text-lg md:text-xl text-gray-200 mb-6 sm:mb-8 max-w-2xl mx-auto">
-            Protect your phone with our range of stylish and durable covers for all major brands. 
-            <span class="font-semibold text-white">Now featuring premium OtterBox covers for maximum protection.</span>
-          </p>
-          <a href="#products" class="inline-block bg-[#090067] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-[#090067]/90 transition-all duration-300 text-base shadow-lg hover:shadow-xl">
-            Shop Now
-          </a>
-        </div>
-      </div>
-
-  
-      <!-- Controls -->
-      <button id="slider-prev" class="absolute left-6 top-1/2 -translate-y-1/2 bg-white/70 hover:bg-white rounded-full p-3 shadow-lg z-30">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#090067]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
-        </svg>
-      </button>
-      <button id="slider-next" class="absolute right-6 top-1/2 -translate-y-1/2 bg-white/70 hover:bg-white rounded-full p-3 shadow-lg z-30">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#090067]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-        </svg>
-      </button>
-  
-      <!-- Dots -->
-      <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex gap-3 z-30">
-        <button class="slider-dot w-3 h-3 rounded-full bg-white" data-index="0"></button>
-        <button class="slider-dot w-3 h-3 rounded-full bg-white/60" data-index="1"></button>
-        <button class="slider-dot w-3 h-3 rounded-full bg-white/60" data-index="2"></button>
-      </div>
-    </div>
-    </section>
-  
-  <!-- EFM Camera Lens Armour Highlight -->
-  <section class="py-10 sm:py-14 lg:py-14 bg-gradient-to-r from-[#38bdf8]/10 via-white to-[#090067]/5 relative overflow-hidden"> <!-- reduced py -->
-    <div class="absolute inset-0 pointer-events-none">
-      <svg class="absolute top-0 left-0 w-64 h-64 opacity-20" viewBox="0 0 200 200"><circle cx="100" cy="100" r="100" fill="#090067"/></svg>
-      <svg class="absolute bottom-0 right-0 w-64 h-64 opacity-10" viewBox="0 0 200 200"><circle cx="100" cy="100" r="100" fill="#090067"/></svg>
-    </div>
-    <div class="relative max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10 animate-fade-in-up"><!-- gap reduced -->
-      <div class="flex-shrink-0 animate-float-up-down">
-        <img src="images/EFM Camera Lens.jpg" alt="EFM Camera Lens Armour" class="w-72 h-72 object-contain rounded-2xl shadow-2xl border-4 border-[#090067] ring-4 ring-[#090067]/20 transition-transform duration-500 hover:scale-105">
-      </div>
-      <div class="text-center md:text-left">
-        <div class="flex items-center justify-center md:justify-start gap-3 mb-2">
-          <span class="text-2xl md:text-3xl animate-fade-in-down">🔒</span>
-          <span class="uppercase tracking-widest text-[#090067] font-bold text-xs md:text-sm animate-fade-in-right">NEW ARRIVAL</span>
-        </div>
-        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4 text-[#090067] drop-shadow-lg animate-fade-in-up">
-          EFM Camera Lens Armour
-        </h2>
-        <p class="text-gray-800 mb-4 text-base md:text-lg font-medium animate-fade-in-up delay-300">
-          <span class="bg-[#090067]/10 px-2 py-1 rounded">Ultimate Protection</span> for your camera lens.<br>
-          <span class="text-[#090067] font-bold">Aviation-grade aluminium</span> & <span class="text-[#090067] font-bold">9H tempered glass</span> keep your photos crystal clear and your lens safe from scratches, drops, and fingerprints.
-        </p>
-        <ul class="text-base text-gray-700 mb-6 space-y-3 font-semibold animate-fade-in-up delay-300">
-          <li class="flex items-center gap-3"><span class="text-[#090067] text-lg">✔</span> Repels scratches, fingerprints, and water</li>
-          <li class="flex items-center gap-3"><span class="text-[#090067] text-lg">✔</span> Ultra-thin, seamless fit for your phone</li>
-          <li class="flex items-center gap-3"><span class="text-[#090067] text-lg">✔</span> Easy, bubble-free installation</li>
-        </ul>
-        <a href="#contact" class="inline-block bg-[#090067] text-white px-8 py-3 rounded-xl font-bold shadow-lg hover:scale-105 hover:bg-[#090067]/90 transition-all duration-300 text-base animate-fade-in-up delay-300">
-          Get Yours Now
-        </a>
-        <div class="mt-4 text-xs text-gray-500 animate-fade-in-up delay-300">
-          <span class="inline-flex items-center gap-1"><svg class="w-4 h-4 text-[#38bdf8]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Limited stock available!</span>
+        <!-- Dots -->
+        <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex gap-3 z-30">
+          <button class="slider-dot w-3 h-3 rounded-full bg-white" data-index="0"></button>
+          <button class="slider-dot w-3 h-3 rounded-full bg-white/60" data-index="1"></button>
+          <button class="slider-dot w-3 h-3 rounded-full bg-white/60" data-index="2"></button>
         </div>
       </div>
     </div>
   </section>
   
+  <!-- EFM Camera Lens Armour Showcase: Make it Irresistibly Attractive -->
+  <section class="relative py-12 sm:py-20 bg-gradient-to-br from-[#e0f7fa]/70 via-white to-[#e0e7ff]/80 overflow-hidden rounded-b-3xl shadow-2xl">
+    <!-- Enhanced Animated BG Shapes -->
+    <div class="absolute inset-0 pointer-events-none select-none z-0">
+      <svg class="absolute -top-12 left-1/2 -translate-x-1/2 w-[500px] h-[260px] blur-lg opacity-15" viewBox="0 0 500 260">
+        <ellipse cx="250" cy="95" rx="230" ry="90" fill="#38bdf8"/>
+      </svg>
+      <svg class="absolute bottom-0 right-0 w-40 h-40 opacity-10" viewBox="0 0 200 200">
+        <rect width="200" height="200" rx="100" fill="#090067"/>
+      </svg>
+      <svg class="absolute top-6 left-6 w-20 h-20 opacity-10" viewBox="0 0 100 100">
+        <circle cx="50" cy="50" r="48" fill="#38bdf8"/>
+      </svg>
+      <svg class="absolute bottom-10 left-1/3 w-32 h-32 opacity-5" viewBox="0 0 160 160">
+        <rect width="160" height="160" rx="55" fill="#090067"/>
+      </svg>
+    </div>
+    <div class="relative z-10 max-w-5xl mx-auto flex flex-col-reverse md:flex-row items-center gap-8 md:gap-16 px-4">
+      <!-- Text + Action -->
+      <div class="w-full md:w-2/3 text-center md:text-left">
+        <div class="flex items-center justify-center md:justify-start gap-3 mb-4">
+          <span class="text-2xl animate-pulse">✨</span>
+          <span class="text-xs tracking-widest uppercase font-extrabold text-[#090067] bg-[#38bdf8]/25 rounded px-3 py-1 shadow">JUST LANDED</span>
+          <span class="inline-flex items-center gap-1 text-xs font-bold text-pink-500 bg-white/60 rounded px-2 py-0.5 shadow">🔥 Hot Offer</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#090067] mb-3 leading-tight drop-shadow">
+          Meet the <span class="text-[#38bdf8] animate-gradient-x bg-gradient-to-r from-[#38bdf8] via-[#090067] to-[#68e0cf] bg-clip-text text-transparent">EFM Camera Lens Armour</span>
+        </h2>
+        <p class="text-gray-800 text-lg sm:text-xl font-semibold mb-4 max-w-xl mx-auto md:mx-0 tracking-wide">
+          <span class="inline-block bg-[#090067]/10 px-3 py-1 rounded font-bold text-[#090067] mb-1 animate-bounce">Next-Level Lens Protection</span><br>
+          Upgrade your phone with <span class="text-[#090067] font-bold">aerospace aluminium</span> & <span class="text-[#38bdf8] font-bold">9H tempered glass</span> – flawless defense, zero impact on your photos.
+        </p>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-2 text-base text-[#090067] font-medium mb-6">
+          <li class="flex items-center gap-2">
+            <span class="inline-flex items-center justify-center rounded-full w-6 h-6 bg-[#38bdf8]/20 text-[#38bdf8] shadow-inner">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </span>
+            Scratch &amp; water proof
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="inline-flex items-center justify-center rounded-full w-6 h-6 bg-[#38bdf8]/20 text-[#38bdf8] shadow-inner">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </span>
+            Fast, bubble-free install
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="inline-flex items-center justify-center rounded-full w-6 h-6 bg-[#38bdf8]/20 text-[#38bdf8] shadow-inner">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </span>
+            No distortion, ultra-thin design
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="inline-flex items-center justify-center rounded-full w-6 h-6 bg-[#38bdf8]/20 text-[#38bdf8] shadow-inner">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </span>
+            Fits iPhone, Samsung & more
+          </li>
+        </ul>
+        <div class="flex flex-col sm:flex-row items-center gap-2 justify-center md:justify-start">
+          <a href="#contact" class="inline-flex items-center gap-2 bg-gradient-to-r from-[#38bdf8] via-[#36d399] to-[#090067] hover:from-[#090067] hover:to-[#38bdf8] text-white px-7 py-3 rounded-xl font-bold shadow-xl hover:shadow-2xl transition-transform duration-300 transform hover:-translate-y-1 text-base ring-2 ring-[#38bdf8]/30">
+            <svg class="w-5 h-5 animate-bounce" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+            Reserve Yours
+          </a>
+          <span class="text-xs sm:text-sm text-[#38bdf8] font-semibold animate-pulse flex items-center gap-1 mt-2 sm:mt-0 bg-white/70 px-2 py-1 rounded shadow">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            Only a few left!
+          </span>
+        </div>
+      </div>
+      <!-- Visual Block (Updated Image Design) -->
+      <div class="w-full md:w-1/3 flex items-center justify-center relative mb-8 md:mb-0 animate-float-up-down">
+        <div class="relative group hover:scale-105 transition-all duration-300">
+          <!-- IMAGE GLOW BACKDROP -->
+          <div class="absolute inset-0 flex items-center justify-center z-0">
+            <div class="w-48 h-48 md:w-72 md:h-72 rounded-full bg-gradient-to-tr from-[#38bdf8]/40 via-white/0 to-[#090067]/30 blur-2xl opacity-70"></div>
+          </div>
+          <img 
+            src="images/EFM Camera Lens.jpg" 
+            alt="EFM Camera Lens Armour"
+            class="relative z-10 w-48 h-48 md:w-72 md:h-72 object-contain rounded-full shadow-2xl border-4 border-white ring-4 ring-[#38bdf8]/30 bg-white transition-all duration-300 group-hover:scale-110 group-hover:shadow-[0_8px_40px_8px_rgba(56,189,248,0.19)] hover:contrast-125 hover:saturate-125"
+            style="box-shadow:0 2px 34px 8px rgba(56,189,248,0.15),0 8px 40px 12px rgba(9,0,103,0.09);"
+          >
+          <!-- Corner HOT label -->
+          <span class="absolute -top-3 -right-4 bg-gradient-to-r from-[#38bdf8] via-white to-[#38bdf8] text-[#090067] px-3 py-1 rounded-2xl font-bold text-[13px] shadow-xl border-2 border-[#38bdf8]/20 animate-rubberBand z-20 tracking-wide">
+            🔥 HOT
+          </span>
+          <!-- Reflection Effect simple -->
+          <div class="absolute inset-x-8 top-8 h-3 rounded-full bg-gradient-to-r from-white/60 via-white/10 to-white/0 blur-lg opacity-90 pointer-events-none z-20"></div>
+          <!-- Sparkle/shine sweep -->
+          <svg class="absolute -top-8 left-8 w-16 h-40 opacity-70 animate-shine pointer-events-none z-20" viewBox="0 0 56 140" fill="none">
+            <linearGradient id="glowshine" x1="0" x2="56" y1="0" y2="140" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#fff" stop-opacity="0.8"/>
+              <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+            </linearGradient>
+            <rect x="0" y="0" width="56" height="140" rx="28" fill="url(#glowshine)"/>
+          </svg>
+          <!-- Some subtle sparkles -->
+          <span class="absolute top-10 left-7 z-30 animate-ping">
+            <svg width="12" height="12" viewBox="0 0 12 12" class="drop-shadow-[0_0_6px_#38bdf8]" fill="none">
+              <circle cx="6" cy="6" r="3" fill="#38bdf8" fill-opacity="0.55"/>
+            </svg>
+          </span>
+          <span class="absolute bottom-8 right-10 z-30 animate-pulse">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <circle cx="8" cy="8" r="4" fill="#38bdf8" fill-opacity="0.4"/>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- Custom Animations -->
+    <style>
+      @keyframes shine {
+        0% { transform: translateX(-50px) rotate(12deg); opacity: 0; }
+        40% { opacity: 0.8; }
+        60% { opacity: 0.8; }
+        100% { transform: translateX(340px) rotate(12deg); opacity: 0; }
+      }
+      .animate-shine {
+        animation: shine 3.5s cubic-bezier(.4,0,.2,1) infinite;
+      }
+      @keyframes rubberBand {
+        0% { transform: scale3d(1, 1, 1);}
+        30% { transform: scale3d(1.25, 0.75, 1);}
+        40% { transform: scale3d(0.75, 1.25, 1);}
+        50% { transform: scale3d(1.15, 0.85, 1);}
+        65% { transform: scale3d(.95, 1.05, 1);}
+        75% { transform: scale3d(1.05, .95, 1);}
+        100% { transform: scale3d(1, 1, 1);}
+      }
+      .animate-rubberBand {
+        animation: rubberBand 2.5s linear infinite alternate;
+      }
+      @keyframes gradient-x {
+        0%, 100% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+      }
+      .animate-gradient-x {
+        background-size: 200% 100%;
+        animation: gradient-x 3s ease-in-out infinite;
+      }
+      @keyframes float-up-down {
+        0%, 100% { transform: translateY(0);}
+        50% { transform: translateY(-18px);}
+      }
+      .animate-float-up-down {
+        animation: float-up-down 3s ease-in-out infinite;
+      }
+    </style>
+  </section>
 
 <!-- Our Products -->
-<section id="products" class="py-8 sm:py-10 lg:py-10 bg-gray-50"> <!-- reduced py -->
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4 text-[#090067]">
+<section id="products" class="py-10 sm:py-12 lg:py-16 bg-gradient-to-br from-[#eff0fc] to-[#f8fafc] relative overflow-hidden">
+  <!-- Decorative floating shape -->
+  <span class="absolute animate-float-up-down left-4 top-8 z-0 opacity-70">
+    <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+      <circle cx="40" cy="40" r="40" fill="#38bdf8" fill-opacity="0.08"/>
+    </svg>
+  </span>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+    <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-3 text-[#090067] tracking-tight">
       Our Products
     </h2>
-    <p class="text-base text-gray-600 max-w-2xl mx-auto mb-6">
-      Explore our wide range of accessories – stylish, durable, and designed to complement your devices.
+    <p class="text-base text-gray-600 max-w-2xl mx-auto mb-8 sm:mb-9">
+      <span class="inline-block animate-shine bg-gradient-to-r from-[#38bdf8]/30 via-transparent to-[#6366f1]/30 rounded-lg px-1">
+        Explore our wide range of accessories – stylish, durable, and designed to complement your devices.
+      </span>
     </p>
 
     <!-- Products Grid -->
-    <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8"> <!-- reduced gap -->
-      
+    <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10 relative z-10">
       <!-- Phone Covers -->
-      <div class="bg-white p-4 sm:p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-        <img src="images/products/cover.png" alt="Phone Covers" class="mx-auto mb-3 sm:mb-4 rounded-lg shadow-md h-28 sm:h-32 lg:h-40 object-contain w-full">
-        <h3 class="text-lg font-bold mb-2 text-[#090067]">Phone Covers</h3>
-        <p class="text-base text-gray-600 mb-2">Stylish and protective covers for all major phone brands.</p>        
+      <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-3 border border-[#90cdf4]/10 hover:border-[#38bdf8]/30 ring-1 ring-[#38bdf8]/5 group cursor-pointer">
+        <div class="flex items-center justify-center mb-4">
+          <img src="images/products/cover.png" alt="Phone Covers" class="rounded-xl shadow animate-float-up-down h-28 sm:h-32 lg:h-40 object-contain w-full transition-transform group-hover:scale-105" loading="lazy">
+        </div>
+        <h3 class="text-lg font-extrabold mb-2 text-[#090067] group-hover:text-[#38bdf8] transition-colors flex items-center justify-center gap-2">
+          <span>📱</span> Phone Covers
+        </h3>
+        <p class="text-base text-gray-600 mb-2">Stylish and protective covers for all major phone brands.</p>
       </div>
 
       <!-- Smart Watches -->
-      <div class="bg-white p-4 sm:p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-        <img src="images/products/watch.png" alt="Smart Watches" class="mx-auto mb-3 sm:mb-4 rounded-lg shadow-md h-28 sm:h-32 lg:h-40 object-contain w-full">
-        <h3 class="text-lg font-bold mb-2 text-[#090067]">Smart Watches</h3>
+      <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-3 border border-[#90cdf4]/10 hover:border-[#38bdf8]/30 ring-1 ring-[#38bdf8]/5 group cursor-pointer">
+        <div class="flex items-center justify-center mb-4">
+          <img src="images/products/watch.png" alt="Smart Watches" class="rounded-xl shadow animate-float-up-down h-28 sm:h-32 lg:h-40 object-contain w-full transition-transform group-hover:scale-105" loading="lazy">
+        </div>
+        <h3 class="text-lg font-extrabold mb-2 text-[#090067] group-hover:text-[#38bdf8] transition-colors flex items-center justify-center gap-2">
+          <span>⌚</span> Smart Watches
+        </h3>
         <p class="text-base text-gray-600 mb-2">Affordable and premium smartwatches with latest features.</p>
       </div>
 
       <!-- Phone Stands -->
-      <div class="bg-white p-4 sm:p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-        <img src="images/products/stand.png" alt="Phone Stands" class="mx-auto mb-3 sm:mb-4 rounded-lg shadow-md h-28 sm:h-32 lg:h-40 object-contain w-full">
-        <h3 class="text-lg font-bold mb-2 text-[#090067]">Phone Stands</h3>
+      <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-3 border border-[#90cdf4]/10 hover:border-[#38bdf8]/30 ring-1 ring-[#38bdf8]/5 group cursor-pointer">
+        <div class="flex items-center justify-center mb-4">
+          <img src="images/products/stand.png" alt="Phone Stands" class="rounded-xl shadow animate-float-up-down h-28 sm:h-32 lg:h-40 object-contain w-full transition-transform group-hover:scale-105" loading="lazy">
+        </div>
+        <h3 class="text-lg font-extrabold mb-2 text-[#090067] group-hover:text-[#38bdf8] transition-colors flex items-center justify-center gap-2">
+          <span>🦾</span> Phone Stands
+        </h3>
         <p class="text-base text-gray-600 mb-2">Hands-free stands for watching, charging, or working.</p>
       </div>
 
       <!-- AirPods -->
-      <div class="bg-white p-4 sm:p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-        <img src="images/products/airpods.png" alt="AirPods" class="mx-auto mb-3 sm:mb-4 rounded-lg shadow-md h-28 sm:h-32 lg:h-40 object-contain w-full">
-        <h3 class="text-lg font-bold mb-2 text-[#090067]">AirPods</h3>
+      <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-3 border border-[#90cdf4]/10 hover:border-[#38bdf8]/30 ring-1 ring-[#38bdf8]/5 group cursor-pointer">
+        <div class="flex items-center justify-center mb-4">
+          <img src="images/products/airpods.png" alt="AirPods" class="rounded-xl shadow animate-float-up-down h-28 sm:h-32 lg:h-40 object-contain w-full transition-transform group-hover:scale-105" loading="lazy">
+        </div>
+        <h3 class="text-lg font-extrabold mb-2 text-[#090067] group-hover:text-[#38bdf8] transition-colors flex items-center justify-center gap-2">
+          <span>🎧</span> AirPods
+        </h3>
         <p class="text-base text-gray-600 mb-2">Premium wireless sound and comfort for everyday use.</p>
       </div>
 
       <!-- Headphones -->
-      <div class="bg-white p-4 sm:p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-        <img src="images/products/headphone.png" alt="Headphones" class="mx-auto mb-3 sm:mb-4 rounded-lg shadow-md h-28 sm:h-32 lg:h-40 object-contain w-full">
-        <h3 class="text-lg font-bold mb-2 text-[#090067]">Headphones</h3>
+      <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-3 border border-[#90cdf4]/10 hover:border-[#38bdf8]/30 ring-1 ring-[#38bdf8]/5 group cursor-pointer">
+        <div class="flex items-center justify-center mb-4">
+          <img src="images/products/headphone.png" alt="Headphones" class="rounded-xl shadow animate-float-up-down h-28 sm:h-32 lg:h-40 object-contain w-full transition-transform group-hover:scale-105" loading="lazy">
+        </div>
+        <h3 class="text-lg font-extrabold mb-2 text-[#090067] group-hover:text-[#38bdf8] transition-colors flex items-center justify-center gap-2">
+          <span>🎵</span> Headphones
+        </h3>
         <p class="text-base text-gray-600 mb-2">High-quality wired and wireless headphones for music lovers.</p>
       </div>
 
       <!-- Other Accessories -->
-      <div class="bg-white p-4 sm:p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-        <img src="images/products/other.png" alt="Accessories" class="mx-auto mb-3 sm:mb-4 rounded-lg shadow-md h-28 sm:h-32 lg:h-40 object-contain w-full">
-        <h3 class="text-lg font-bold mb-2 text-[#090067]">Other Accessories</h3>
+      <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-3 border border-[#90cdf4]/10 hover:border-[#38bdf8]/30 ring-1 ring-[#38bdf8]/5 group cursor-pointer">
+        <div class="flex items-center justify-center mb-4">
+          <img src="images/products/other.png" alt="Accessories" class="rounded-xl shadow animate-float-up-down h-28 sm:h-32 lg:h-40 object-contain w-full transition-transform group-hover:scale-105" loading="lazy">
+        </div>
+        <h3 class="text-lg font-extrabold mb-2 text-[#090067] group-hover:text-[#38bdf8] transition-colors flex items-center justify-center gap-2">
+          <span>🔌</span> Other Accessories
+        </h3>
         <p class="text-base text-gray-600 mb-2">Chargers, cables, screen protectors, and more essentials.</p>
       </div>
 
       <!-- Hidden More Products -->
-      <div class="hidden more-products bg-white p-4 sm:p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-        <img src="images/products/speaker.png" alt="Bluetooth Speakers" class="mx-auto mb-3 sm:mb-4 rounded-lg shadow-md h-28 sm:h-32 lg:h-40 object-contain w-full">
-        <h3 class="text-lg font-bold mb-2 text-[#090067]">Bluetooth Speakers</h3>
+      <div class="hidden more-products bg-white p-6 sm:p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-3 border border-[#90cdf4]/10 hover:border-[#38bdf8]/30 ring-1 ring-[#38bdf8]/5 group cursor-pointer">
+        <div class="flex items-center justify-center mb-4">
+          <img src="images/products/speaker.png" alt="Bluetooth Speakers" class="rounded-xl shadow animate-float-up-down h-28 sm:h-32 lg:h-40 object-contain w-full transition-transform group-hover:scale-105" loading="lazy">
+        </div>
+        <h3 class="text-lg font-extrabold mb-2 text-[#090067] group-hover:text-[#38bdf8] transition-colors flex items-center justify-center gap-2">
+          <span>🔊</span> Bluetooth Speakers
+        </h3>
         <p class="text-base text-gray-600 mb-2">Portable speakers with rich sound and long battery life.</p>
       </div>
 
-      <div class="hidden more-products bg-white p-4 sm:p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-        <img src="images/products/power.png" alt="Power Banks" class="mx-auto mb-3 sm:mb-4 rounded-lg shadow-md h-28 sm:h-32 lg:h-40 object-contain w-full">
-        <h3 class="text-lg font-bold mb-2 text-[#090067]">Power Banks</h3>
+      <div class="hidden more-products bg-white p-6 sm:p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-3 border border-[#90cdf4]/10 hover:border-[#38bdf8]/30 ring-1 ring-[#38bdf8]/5 group cursor-pointer">
+        <div class="flex items-center justify-center mb-4">
+          <img src="images/products/power.png" alt="Power Banks" class="rounded-xl shadow animate-float-up-down h-28 sm:h-32 lg:h-40 object-contain w-full transition-transform group-hover:scale-105" loading="lazy">
+        </div>
+        <h3 class="text-lg font-extrabold mb-2 text-[#090067] group-hover:text-[#38bdf8] transition-colors flex items-center justify-center gap-2">
+          <span>🔋</span> Power Banks
+        </h3>
         <p class="text-base text-gray-600 mb-2">Compact, high-capacity power banks to keep you charged.</p>
       </div>
 
-      <div class="hidden more-products bg-white p-4 sm:p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-        <img src="images/products/game.png" alt="Gaming Accessories" class="mx-auto mb-3 sm:mb-4 rounded-lg shadow-md h-28 sm:h-32 lg:h-40 object-contain w-full">
-        <h3 class="text-lg font-bold mb-2 text-[#090067]">Gaming Accessories</h3>
+      <div class="hidden more-products bg-white p-6 sm:p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-3 border border-[#90cdf4]/10 hover:border-[#38bdf8]/30 ring-1 ring-[#38bdf8]/5 group cursor-pointer">
+        <div class="flex items-center justify-center mb-4">
+          <img src="images/products/game.png" alt="Gaming Accessories" class="rounded-xl shadow animate-float-up-down h-28 sm:h-32 lg:h-40 object-contain w-full transition-transform group-hover:scale-105" loading="lazy">
+        </div>
+        <h3 class="text-lg font-extrabold mb-2 text-[#090067] group-hover:text-[#38bdf8] transition-colors flex items-center justify-center gap-2">
+          <span>🎮</span> Gaming Accessories
+        </h3>
         <p class="text-base text-gray-600 mb-2">Controllers, triggers, and gaming add-ons for phones.</p>
       </div>
     </div>
 
-    <!-- View More Button -->
-    <div class="mt-5 sm:mt-6 lg:mt-7"><!-- reduced mt -->
-      <button id="toggle-products" class="bg-[#090067] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#090067]/90 transition-all duration-300 text-lg shadow-lg hover:shadow-xl">
-        View More Products
+    <!-- View More Button with Icon and Animation -->
+    <div class="mt-7 sm:mt-8 lg:mt-10 flex justify-center items-center">
+      <button id="toggle-products" class="relative bg-gradient-to-r from-[#090067] via-[#6366f1] to-[#38bdf8] text-white px-10 py-4 rounded-xl font-bold hover:from-[#38bdf8] hover:to-[#090067] hover:scale-105 hover:shadow-xl transition-all duration-300 text-lg shadow-lg flex items-center gap-3 overflow-hidden group">
+        <span class="relative z-10">View More Products</span>
+        <svg class="w-6 h-6 text-white opacity-90 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+        </svg>
+        <span class="absolute left-2 top-2.5 animate-pulse opacity-30">
+          <svg width="14" height="14" viewBox="0 0 18 18" fill="none">
+            <circle cx="9" cy="9" r="6.5" fill="#38bdf8" />
+          </svg>
+        </span>
       </button>
     </div>
   </div>
+  <!-- Decorative shape at bottom right -->
+  <span class="absolute animate-float-up-down right-8 bottom-0 z-0 opacity-30">
+    <svg width="110" height="44" viewBox="0 0 110 44" fill="none">
+      <ellipse cx="55" cy="22" rx="54" ry="21" fill="#6366f1" fill-opacity="0.09"/>
+    </svg>
+  </span>
+  <style>
+    @keyframes animate-shine {
+      0% { background-position: -100px; }
+      100% { background-position: 300px; }
+    }
+    .animate-shine {
+      background: linear-gradient(90deg, #38bdf8 0%, #fff 50%, #6366f1 100%);
+      background-size: 200px 100%;
+      animation: animate-shine 4s linear infinite;
+    }
+    @keyframes animate-float-up-down {
+      0%,100% { transform: translateY(0);}
+      50% { transform: translateY(-20px);}
+    }
+    .animate-float-up-down {
+      animation: animate-float-up-down 4s ease-in-out infinite;
+    }
+    @keyframes animate-rubberBand {
+      0% { transform: scale3d(1, 1, 1);}
+      30% { transform: scale3d(1.25, 0.75, 1);}
+      40% { transform: scale3d(0.75, 1.25, 1);}
+      50% { transform: scale3d(1.15, 0.85, 1);}
+      65% { transform: scale3d(.95, 1.05, 1);}
+      75% { transform: scale3d(1.05, .95, 1);}
+      100% { transform: scale3d(1, 1, 1);}
+    }
+    .animate-rubberBand {
+      animation: animate-rubberBand 2.5s linear infinite alternate;
+    }
+  </style>
 </section>
 
 
@@ -420,27 +624,73 @@
 
 
 
-  <!-- Why Choose Us -->
-  <section id="why-us" class="py-8 sm:py-10 lg:py-10 bg-gray-50"> <!-- reduced py -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4 text-[#090067]">
-        Why Choose Us?
+  <!-- Why Choose Us (Enhanced Version) -->
+  <section id="why-us" class="relative py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-[#eff6ff] via-white to-[#f8fafc] overflow-hidden">
+    <!-- Decorative floating shapes -->
+    <span class="absolute animate-float-up-down left-12 top-6 opacity-60 -z-10">
+      <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+        <circle cx="40" cy="40" r="40" fill="#38bdf8" fill-opacity="0.08"/>
+      </svg>
+    </span>
+    <span class="absolute animate-float-up-down right-12 bottom-4 opacity-70 -z-10">
+      <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
+        <circle cx="60" cy="60" r="60" fill="#6366f1" fill-opacity="0.09"/>
+      </svg>
+    </span>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4 text-[#090067] tracking-tight">
+        Why Choose <span class="bg-gradient-to-r from-[#38bdf8] to-[#6366f1] bg-clip-text text-transparent">Us?</span>
       </h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6"><!-- reduced gap -->
-        <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-          <h3 class="text-base font-bold mb-2 text-[#090067]">⚡ Quick Service</h3>
-          <p class="text-sm text-gray-600">Most repairs completed within the same day – no long waits.</p>
+      <p class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto mb-10 animate-fade-in-up">
+        Your <span class="font-semibold text-[#090067]">local experts</span> for phone and tablet repairs. See what sets us apart from the rest!
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Card 1: Quick Service -->
+        <div class="p-8 bg-white rounded-2xl shadow-2xl hover:shadow-primary/20 border-t-4 border-[#38bdf8] hover:-translate-y-2 hover:scale-105 transition-all duration-300 group relative overflow-hidden">
+          <div class="absolute top-3 right-3 text-[#38bdf8] text-4xl opacity-15 pointer-events-none select-none animate-rubberBand">
+            ⚡
+          </div>
+          <div class="flex items-center justify-center mb-4">
+            <span class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#38bdf8]/10 text-[#38bdf8] text-3xl animate-gradient-x shadow">
+              ⚡
+            </span>
+          </div>
+          <h3 class="text-lg font-extrabold mb-2 text-[#090067] group-hover:text-[#38bdf8] transition-colors">Quick Service</h3>
+          <p class="text-sm text-gray-600 mb-1">Most repairs completed <strong>same day</strong> – no long waits!</p>
+          <span class="inline-block mt-3 px-3 py-1 rounded-full bg-[#38bdf8]/10 text-[#38bdf8] text-xs font-semibold tracking-wide shadow">Speedy</span>
         </div>
-        <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-          <h3 class="text-base font-bold mb-2 text-[#090067]">🛠 Certified Technicians</h3>
-          <p class="text-sm text-gray-600">Skilled experts with years of experience in phone and tablet repairs.</p>
+        <!-- Card 2: Certified Technicians -->
+        <div class="p-8 bg-white rounded-2xl shadow-2xl hover:shadow-indigo-200 border-t-4 border-[#6366f1] hover:-translate-y-2 hover:scale-105 transition-all duration-300 group relative overflow-hidden">
+          <div class="absolute top-3 right-3 text-[#6366f1] text-4xl opacity-15 pointer-events-none select-none animate-rubberBand">
+            🛠
+          </div>
+          <div class="flex items-center justify-center mb-4">
+            <span class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#6366f1]/10 text-[#6366f1] text-3xl animate-gradient-x shadow">
+              🛠
+            </span>
+          </div>
+          <h3 class="text-lg font-extrabold mb-2 text-[#090067] group-hover:text-[#6366f1] transition-colors">Certified Technicians</h3>
+          <p class="text-sm text-gray-600 mb-1">Skilled <strong>experts</strong> with years of real hands-on experience.</p>
+          <span class="inline-block mt-3 px-3 py-1 rounded-full bg-[#6366f1]/10 text-[#6366f1] text-xs font-semibold tracking-wide shadow">Expertise</span>
         </div>
-        <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-          <h3 class="text-base font-bold mb-2 text-[#090067]">💯 Quality Guarantee</h3>
-          <p class="text-sm text-gray-600">We use premium parts and back our work with a service warranty.</p>
+        <!-- Card 3: Quality Guarantee -->
+        <div class="p-8 bg-white rounded-2xl shadow-2xl hover:shadow-rose-200 border-t-4 border-[#e11d48] hover:-translate-y-2 hover:scale-105 transition-all duration-300 group relative overflow-hidden">
+          <div class="absolute top-3 right-3 text-[#e11d48] text-4xl opacity-15 pointer-events-none select-none animate-rubberBand">
+            💯
+          </div>
+          <div class="flex items-center justify-center mb-4">
+            <span class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#e11d48]/10 text-[#e11d48] text-3xl animate-gradient-x shadow">
+              💯
+            </span>
+          </div>
+          <h3 class="text-lg font-extrabold mb-2 text-[#090067] group-hover:text-[#e11d48] transition-colors">Quality Guarantee</h3>
+          <p class="text-sm text-gray-600 mb-1">We use <strong>premium parts</strong> and back our work with a <strong>warranty</strong>.</p>
+          <span class="inline-block mt-3 px-3 py-1 rounded-full bg-[#e11d48]/10 text-[#e11d48] text-xs font-semibold tracking-wide shadow">Guaranteed</span>
         </div>
       </div>
     </div>
+    <!-- Subtle gradient line bottom -->
+    <div class="absolute left-1/2 -translate-x-1/2 bottom-0 w-3/4 h-16 bg-gradient-to-r from-[#38bdf8]/10 via-[#e0e7ff]/60 to-[#6366f1]/15 rounded-t-3xl blur-2xl -z-10"></div>
   </section>
 
   <!-- Testimonials -->
@@ -469,239 +719,172 @@
   -->
 
 
-  <!-- Contact Section -->
-  <section id="contact" class="py-10 sm:py-12 lg:py-12 bg-gradient-to-br from-gray-50 via-white to-gray-100 relative overflow-hidden"> <!-- reduced py -->
-    <!-- Background Pattern -->
-    <div class="absolute inset-0 opacity-5">
-      <div class="absolute top-0 left-0 w-96 h-96 bg-[#090067] rounded-full -translate-x-48 -translate-y-48"></div>
-      <div class="absolute bottom-0 right-0 w-96 h-96 bg-[#090067] rounded-full translate-x-48 translate-y-48"></div>
-    </div>
+ 
+<!-- Contact Section (Bold & Vibrant Redesign) -->
+<section id="contact" class="relative bg-[#090067] text-white py-16">
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 text-center">
     
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-      <!-- Section Header -->
-      <div class="text-center mb-8 sm:mb-8"> <!-- reduced mb -->
-        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[#090067] mb-3">
-          Get in Touch
-        </h2>
-        <p class="text-base text-gray-600 max-w-3xl mx-auto">
-          Ready to repair your device? Contact us today for fast, professional service. 
-          <span class="font-semibold text-[#090067]">We're here 7 days a week!</span>
-        </p>
-      </div>
+    <!-- Section Header -->
+    <div class="mb-12">
+      <h2 class="text-4xl font-extrabold tracking-tight mb-3">Let’s Get in Touch</h2>
+      <p class="text-gray-200 max-w-2xl mx-auto text-base">
+        Have a broken device or need quick support? 
+        <span class="font-semibold text-white">We’re available 7 days a week — ready to help!</span>
+      </p>
+    </div>
 
-      <!-- Main Content Grid -->
-      <div class="grid grid-cols-1 xl:grid-cols-3 gap-6 lg:gap-8"> <!-- reduced gap -->
-        
-        <!-- Contact Information Cards -->
-        <div class="xl:col-span-1 space-y-6">
-          <!-- Address Card -->
-          <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
-            <div class="flex items-start gap-4">
-              <div class="bg-[#090067]/10 p-3 rounded-xl">
-                <svg class="w-6 h-6 text-[#090067]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-base font-bold text-[#090067] mb-1">Visit Our Store</h3>
-                <p class="text-gray-600 text-sm">
-                  Highpoint Shopping Centre<br>
-                  Level 2, Kiosk-7223<br>
-                  120-200 Rosamond Rd<br>
-                  Maribyrnong VIC 3032
-                </p>
-              </div>
-            </div>
+    <!-- Info + Form Grid -->
+    <!-- 
+      Equal heights fix: use h-full on both left and right,
+      and set min-h-[...px] for a reasonable "card" height.
+      For stacking, ensure content fits vertically.
+      Use items-stretch to force the two columns to stretch equally.
+    -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-stretch">
+      
+      <!-- Left: Contact Info -->
+      <div class="space-y-6 text-left h-full flex flex-col">
+        <!-- Address -->
+        <div class="flex items-start gap-4 bg-white/10 p-5 rounded-2xl backdrop-blur-md hover:bg-white/20 transition-all duration-300">
+          <div class="p-3 bg-white/20 rounded-xl">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+            </svg>
           </div>
-
-          <!-- Phone Card -->
-          <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
-            <div class="flex items-start gap-4">
-              <div class="bg-[#090067]/10 p-3 rounded-xl">
-                <svg class="w-6 h-6 text-[#090067]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-base font-bold text-[#090067] mb-1">Call Us</h3>
-                <div class="space-y-2">
-                  <p class="text-gray-600 text-sm">
-                    <span class="font-semibold">Mobile:</span><br>
-                    <a href="tel:0452111266" class="text-[#090067] hover:underline font-semibold">0452 111 266</a>
-                  </p>
-                  <p class="text-gray-600 text-sm">
-                    <span class="font-semibold">Landline:</span><br>
-                    <a href="tel:0393179024" class="text-[#090067] hover:underline font-semibold">03 9317 9024</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Email Card -->
-          <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300">
-            <div class="flex items-start gap-4">
-              <div class="bg-[#090067]/10 p-3 rounded-xl">
-                <svg class="w-6 h-6 text-[#090067]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-base font-bold text-[#090067] mb-1">Email Us</h3>
-                <p class="text-gray-600 text-sm">
-                  <a href="mailto:info@gpgphonehub.com.au" class="text-[#090067] hover:underline font-semibold">
-                    info@gpgphonehub.com.au
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Hours Card -->
-          <div class="bg-gradient-to-br from-[#090067] to-[#0a0075] p-6 sm:p-8 rounded-2xl shadow-xl text-white">
-            <div class="flex items-start gap-4">
-              <div class="bg-white/20 p-3 rounded-xl">
-                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-base font-bold mb-3">Opening Hours</h3>
-                <div class="space-y-2 text-xs">
-                  <div class="flex justify-between"><span>Sunday:</span> <span class="font-semibold">10:00 AM – 5:00 PM</span></div>
-                  <div class="flex justify-between"><span>Monday:</span> <span class="font-semibold">9:00 AM – 6:00 PM</span></div>
-                  <div class="flex justify-between"><span>Tuesday:</span> <span class="font-semibold">9:00 AM – 6:00 PM</span></div>
-                  <div class="flex justify-between"><span>Wednesday:</span> <span class="font-semibold">9:00 AM – 6:00 PM</span></div>
-                  <div class="flex justify-between"><span>Thursday:</span> <span class="font-semibold">9:00 AM – 9:00 PM</span></div>
-                  <div class="flex justify-between"><span>Friday:</span> <span class="font-semibold">9:00 AM – 9:00 PM</span></div>
-                  <div class="flex justify-between"><span>Saturday:</span> <span class="font-semibold">9:00 AM – 6:00 PM</span></div>
-                </div>
-                <div class="mt-4 text-[11px] bg-white/20 px-3 py-2 rounded-lg">
-                  <span class="font-semibold">Walk-ins welcome!</span> No appointment needed.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Contact Form & Map -->
-        <div class="xl:col-span-2 space-y-6">
-          <!-- Contact Form -->
-          <div class="bg-white p-6 sm:p-8 lg:p-10 rounded-2xl shadow-xl border border-gray-100">
-            <div class="mb-4">
-              <h3 class="text-lg sm:text-xl font-bold text-[#090067] mb-1">Send us a Message</h3>
-              <p class="text-gray-600 text-sm">Fill out the form below and we'll get back to you within 24 hours.</p>
-            </div>
-            
-            <form name="contact" method="POST" data-netlify="true" class="space-y-4">
-              <input type="hidden" name="form-name" value="contact">
-              
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label for="name" class="block text-[#090067] font-semibold text-sm mb-1">Full Name *</label>
-                  <input type="text" id="name" name="name" required 
-                         class="w-full px-4 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#090067] focus:border-transparent bg-gray-50 transition-all duration-300 text-sm" 
-                         placeholder="Your full name">
-                </div>
-                <div>
-                  <label for="phone" class="block text-[#090067] font-semibold text-sm mb-1">Phone Number *</label>
-                  <input type="tel" id="phone" name="phone" required pattern="[0-9+\s()-]{7,}" 
-                         class="w-full px-4 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#090067] focus:border-transparent bg-gray-50 transition-all duration-300 text-sm" 
-                         placeholder="Your phone number">
-                </div>
-              </div>
-              
-              <div>
-                <label for="email" class="block text-[#090067] font-semibold text-sm mb-1">Email Address *</label>
-                <input type="email" id="email" name="email" required 
-                       class="w-full px-4 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#090067] focus:border-transparent bg-gray-50 transition-all duration-300 text-sm" 
-                       placeholder="your.email@example.com">
-              </div>
-              
-              <div>
-                <label for="service" class="block text-[#090067] font-semibold text-sm mb-1">Service Needed</label>
-                <select id="service" name="service" 
-                        class="w-full px-4 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#090067] focus:border-transparent bg-gray-50 transition-all duration-300 text-sm">
-                  <option value="">Select a service</option>
-                  <option value="screen-repair">Screen Repair</option>
-                  <option value="battery-replacement">Battery Replacement</option>
-                  <option value="water-damage">Water Damage Repair</option>
-                  <option value="charging-port">Charging Port Repair</option>
-                  <option value="camera-repair">Camera Repair</option>
-                  <option value="software-issue">Software Issue</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-              
-              <div>
-                <label for="message" class="block text-[#090067] font-semibold text-sm mb-1">Message *</label>
-                <textarea id="message" name="message" rows="5" required 
-                          class="w-full px-4 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#090067] focus:border-transparent bg-gray-50 transition-all duration-300 text-sm resize-none" 
-                          placeholder="Tell us about your device and the issue you're experiencing..."></textarea>
-              </div>
-              
-              <button type="submit" 
-                      class="w-full bg-[#090067] text-white font-bold py-3 rounded-xl hover:bg-[#090067]/90 transition-all duration-300 flex items-center justify-center gap-3 text-base shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
-                </svg>
-                Send Message
-              </button>
-              
-              <p class="text-xs text-gray-500 text-center">
-                We respect your privacy. Your information will never be shared with third parties.
-              </p>
-            </form>
-          </div>
-
-          <!-- Map Section -->
-          <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-100">
-            <h3 class="text-base sm:text-lg font-bold text-[#090067] mb-2">Find Us</h3>
-            <div class="relative">
-              <iframe
-                class="w-full h-56 sm:h-72 rounded-xl shadow-lg border-0"
-                src="https://www.google.com/maps?q=-37.7762469797587,144.8859643153187&amp;hl=en&amp;z=18&amp;output=embed"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                title="GPG Phone Hub Location"
-              ></iframe>
-              <div class="absolute top-4 right-4 bg-white px-3 py-2 rounded-lg shadow-lg">
-                <div class="flex items-center gap-2 text-xs">
-                  <div class="w-3 h-3 bg-red-500 rounded-full"></div>
-                  <span class="font-semibold text-[#090067]">Our Location</span>
-                </div>
-              </div>
-            </div>
-            <p class="text-xs text-gray-600 mt-2 text-center">
-              Look for the <span class="font-semibold text-red-500">red marker</span> inside Highpoint Shopping Centre, Level 2
+          <div>
+            <h3 class="font-bold text-lg mb-1">Visit Our Store</h3>
+            <p class="text-gray-200 text-sm leading-relaxed">
+              Highpoint Shopping Centre, Level 2, Kiosk-7223<br>
+              120-200 Rosamond Rd, Maribyrnong VIC 3032
             </p>
           </div>
         </div>
-      </div>
 
-      <!-- Quick Action Buttons -->
-      <div class="mt-7 sm:mt-8 text-center">
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="tel:0452111266" 
-             class="inline-flex items-center gap-3 bg-[#090067] text-white px-7 py-3 rounded-xl font-bold hover:bg-[#090067]/90 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-base">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <!-- Phone -->
+        <div class="flex items-start gap-4 bg-white/10 p-5 rounded-2xl backdrop-blur-md hover:bg-white/20 transition-all duration-300">
+          <div class="p-3 bg-white/20 rounded-xl">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
             </svg>
-            Call Now: 0452 111 266
-          </a>
-          <a href="mailto:info@gpgphonehub.com.au" 
-             class="inline-flex items-center gap-3 bg-white text-[#090067] border-2 border-[#090067] px-7 py-3 rounded-xl font-bold hover:bg-[#090067] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-base">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          </div>
+          <div>
+            <h3 class="font-bold text-lg mb-1">Call Us</h3>
+            <p class="text-gray-200 text-sm">
+              <span class="font-semibold">Mobile:</span>
+              <a href="tel:0452111266" class="text-white hover:underline">0452 111 266</a><br>
+              <span class="font-semibold">Landline:</span>
+              <a href="tel:0393179024" class="text-white hover:underline">03 9317 9024</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="flex items-start gap-4 bg-white/10 p-5 rounded-2xl backdrop-blur-md hover:bg-white/20 transition-all duration-300">
+          <div class="p-3 bg-white/20 rounded-xl">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
             </svg>
-            Email Us
-          </a>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg mb-1">Email Us</h3>
+            <a href="mailto:info@gpgphonehub.com.au" class="text-white font-semibold hover:underline">info@gpgphonehub.com.au</a>
+          </div>
         </div>
+
+        <!-- Hours -->
+        <div class="flex items-start gap-4 bg-white/10 p-5 rounded-2xl backdrop-blur-md hover:bg-white/20 transition-all duration-300">
+          <div class="p-3 bg-white/20 rounded-xl">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg mb-1">Opening Hours</h3>
+            <p class="text-gray-200 text-sm leading-relaxed">
+              Sunday: 10:00 AM – 5:00 PM<br>
+              Monday: 9:00 AM – 6:00 PM<br>
+              Tuesday: 9:00 AM – 6:00 PM<br>
+              Wednesday: 9:00 AM – 6:00 PM<br>
+              Thursday: 9:00 AM – 9:00 PM<br>
+              Friday: 9:00 AM – 9:00 PM<br>
+              Saturday: 9:00 AM – 6:00 PM<br>
+              <span class="font-semibold text-white">Walk-ins welcome!</span>
+            </p>
+          </div>
+        </div>
+        <!-- Make the column stretch to fill by adding flex-1 -->
+        <div class="flex-1"></div>
+      </div>
+
+      <!-- Right: Contact Form -->
+      <div class="bg-white text-[#090067] rounded-3xl p-8 shadow-2xl border border-white/10 h-full flex flex-col min-h-[560px]">
+        <h3 class="text-2xl font-bold mb-3">Send Us a Message</h3>
+        <p class="text-sm text-gray-600 mb-6">We’ll reply within 24 hours — fast, friendly, and professional support.</p>
+
+        <form name="contact" method="POST" data-netlify="true" class="space-y-4 flex flex-col flex-1 h-full grow">
+          <input type="hidden" name="form-name" value="contact">
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 flex-1">
+            <input type="text" name="name" required placeholder="Full Name *"
+              class="w-full h-full px-4 py-3 rounded-xl border border-gray-300 text-sm focus:ring-2 focus:ring-[#090067] focus:outline-none bg-gray-50 flex-1">
+            <input type="tel" name="phone" required placeholder="Phone Number *"
+              class="w-full h-full px-4 py-3 rounded-xl border border-gray-300 text-sm focus:ring-2 focus:ring-[#090067] focus:outline-none bg-gray-50 flex-1">
+          </div>
+
+          <input type="email" name="email" required placeholder="Email Address *"
+            class="w-full px-4 py-3 rounded-xl border border-gray-300 text-sm focus:ring-2 focus:ring-[#090067] focus:outline-none bg-gray-50 flex-1">
+
+          <select name="service"
+            class="w-full px-4 py-3 rounded-xl border border-gray-300 text-sm focus:ring-2 focus:ring-[#090067] focus:outline-none bg-gray-50 flex-1">
+            <option value="">Select a Service</option>
+            <option>Screen Repair</option>
+            <option>Battery Replacement</option>
+            <option>Water Damage</option>
+            <option>Charging Port</option>
+            <option>Camera Repair</option>
+            <option>Software Issue</option>
+            <option>Other</option>
+          </select>
+
+          <div class="flex flex-col flex-1">
+            <textarea name="message" rows="7" required placeholder="Your Message *"
+              class="w-full h-full min-h-[140px] px-4 py-3 flex-1 rounded-xl border border-gray-300 text-sm focus:ring-2 focus:ring-[#090067] focus:outline-none bg-gray-50 resize-none"></textarea>
+          </div>
+
+          <div class="flex-1"></div>
+
+          <button type="submit"
+            class="w-full bg-[#090067] text-white font-bold py-3 rounded-xl hover:bg-[#0b0080] transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1 flex justify-center items-center gap-2 mt-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+            </svg>
+            Send Message
+          </button>
+        </form>
       </div>
     </div>
-  </section>
+
+    <!-- Quick Action Buttons -->
+    <div class="mt-12 flex flex-col sm:flex-row justify-center gap-5">
+      <a href="tel:0452111266" 
+        class="bg-white text-[#090067] font-bold px-8 py-4 rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1 flex items-center gap-3 justify-center text-lg">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+        </svg>
+        Call Now: 0452 111 266
+      </a>
+      
+      <a href="mailto:info@gpgphonehub.com.au"
+        class="bg-transparent border-2 border-white text-white font-bold px-8 py-4 rounded-xl hover:bg-white hover:text-[#090067] transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1 flex items-center gap-3 justify-center text-lg">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+        </svg>
+        Email Us
+      </a>
+    </div>
+  </div>
+</section>
 
   <!-- FAQ Section -->
   <section id="faq" class="py-10 sm:py-12 lg:py-12 bg-white relative overflow-hidden"> <!-- reduced py -->
@@ -876,27 +1059,30 @@
                 </div>
               </button>
             </div>
-            <!-- FAQ Item 10 -->
-            <div class="bg-gradient-to-br from-[#090067] to-[#0a0075] border-2 border-[#090067] rounded-2xl shadow-xl text-white">
-              <div class="p-6">
-                <div class="flex items-center gap-4 mb-3">
-                  <div class="bg-white/20 p-3 rounded-xl">
-                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                    </svg>
+            <!-- FAQ Item 10 (REMOVED as it's a duplicate and contributes to unnecessary blank space) -->
+            <!-- FAQ Item 11 -->
+            <div class="col-span-full flex justify-center">
+              <div class="bg-gradient-to-br from-[#090067] to-[#0a0075] border-2 border-[#090067] rounded-2xl shadow-xl text-white max-w-md w-full">
+                <div class="p-6">
+                  <div class="flex items-center gap-4 mb-3 justify-center">
+                    <div class="bg-white/20 p-3 rounded-xl">
+                      <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                      </svg>
+                    </div>
+                    <h3 class="text-base font-bold">Still have questions?</h3>
                   </div>
-                  <h3 class="text-base font-bold">Still have questions?</h3>
-                </div>
-                <p class="text-white/90 text-sm mb-3">
-                  Can't find what you're looking for? Our friendly team is here to help!
-                </p>
-                <div class="flex flex-col sm:flex-row gap-3">
-                  <a href="tel:0452111266" class="bg-white text-[#090067] px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300 text-center text-xs">
-                    📞 Call Us
-                  </a>
-                  <a href="mailto:info@gpgphonehub.com.au" class="bg-white/20 text-white border border-white/30 px-4 py-2 rounded-lg font-semibold hover:bg-white/30 transition-colors duration-300 text-center text-xs">
-                    📧 Email Us
-                  </a>
+                  <p class="text-white/90 text-sm mb-3 text-center">
+                    Can't find what you're looking for? Our friendly team is here to help!
+                  </p>
+                  <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                    <a href="tel:0452111266" class="bg-white text-[#090067] px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300 text-center text-xs">
+                      📞 Call Us
+                    </a>
+                    <a href="mailto:info@gpgphonehub.com.au" class="bg-white/20 text-white border border-white/30 px-4 py-2 rounded-lg font-semibold hover:bg-white/30 transition-colors duration-300 text-center text-xs">
+                      📧 Email Us
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -907,7 +1093,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-primary text-gray-300 py-6 sm:py-8 lg:py-8"><!-- reduced py -->
+  <footer class="bg-primary text-gray-300 py-6 sm:py-8 lg:py-8"><!-- reduced,  py -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Main Footer Content -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-6 mb-6"><!-- reduced gap and mb -->
@@ -1008,17 +1194,16 @@
 
       <!-- Footer Bottom -->
       <div class="border-t border-gray-600/30 pt-4 sm:pt-6">
-        <div class="flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div class="flex flex-col gap-4 items-center">
           <!-- Copyright -->
-          <div class="text-center sm:text-left">
+          <div class="text-center">
             <p class="text-gray-500 text-xs">
               © 2025 GPG Phone Hub. All Rights Reserved.
             </p>
           </div>
-
-          <!-- Designer Credit -->
-          <div class="text-center sm:text-right">
-            <p class="text-gray-400 text-xs flex items-center gap-2">
+          <!-- Designer Credit centered -->
+          <div class="text-center">
+            <p class="text-gray-400 text-xs flex items-center gap-2 justify-center">
               <span>Designed & Maintained by</span>
               <span class="text-[#38bdf8] font-semibold hover:text-white transition-colors duration-300 cursor-pointer">
                 Baljit
